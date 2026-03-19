@@ -9,12 +9,12 @@
 
 #3.
 class Student:
-    def __init__(self, name, age, grade_level, student_id):
+    def __init__(self, name, age, gradelevel, studentid):
         
         self.name = name  
         self.age = age    
-        self.grade_level = grade_level 
-        self.student_id = student_id 
+        self.grade_level = gradelevel 
+        self.student_id = studentid 
         self.gpa = 0.0
     def getinfo(self):
         
