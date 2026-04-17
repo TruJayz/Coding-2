@@ -46,3 +46,32 @@ def multiplynumber(multiplier):
         print(f"{i} * {multiplier} = {i * multiplier}")
 
 multiplynumber()
+
+
+
+4/17/2026
+
+
+#Create a movie class. Your movie class should include 4 parameters.
+#Then create 3 move objects from your class.
+
+
+class Movie:
+    def __init__(self, title, genre, director, year):
+        self.title = title
+        self.genre = genre
+        self.director = director
+        self.year = year
+
+    def display(self):
+        print(f"Title: {self.title}, Genre: {self.genre}, "
+              f"Director: {self.director}, Year: {self.year}")
+
+movieOne = Movie("The Matrix", "Sci-Fi", "The Wachowskis", 1999)
+movieTwo = Movie("the super mario bros movie galaxy", "comedy", "Aaron Horvath and Michael Jelenic", 2026)
+movieThree = Movie("Parasite", "Thriller", "Bong Joon-ho", 2019)
+
+movieOne.display_info()
+movieTwo.display_info()
+movieThree.display_info()
+
